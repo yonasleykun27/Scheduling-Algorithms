@@ -1,4 +1,3 @@
-# Group Assignment: OS Scheduling Algorithms
 # Algorithm: Shortest Job First (SJF) - Non-Preemptive
 
 def calculate_sjf(processes):
@@ -84,4 +83,5 @@ if __name__ == "__main__":
     ]
     
     final_data = calculate_sjf(input_processes)
+
     print_table(final_data)
